@@ -1,5 +1,11 @@
 <?php
 
-    echo 'New Repository';
+namespace ErikFig;
 
-?>
+class HelloWorld
+{
+    public function handler()
+    {
+        echo 'Hello World';
+    }
+}
